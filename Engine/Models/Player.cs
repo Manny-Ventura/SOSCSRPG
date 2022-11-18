@@ -8,6 +8,10 @@ namespace Engine.Models
 {
     internal class Player
     {
+        string Name { get; set; }
+        string CharacterClass { get; set; }
+        int HitPoints { get; set; }
+
 
     }
 }
